@@ -1,0 +1,119 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+  background-color: #ffc107 !important;
+
+}
+div ul li a:hover {
+  color: #ffc107 !important;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+div img:hover {
+  transform: scale(1.1);
+}
+
+.btn-primary {
+  background-color: #ffc107 !important;
+  color: rgb(28, 28, 28)  !important;
+  border: #ffc107 !important;
+  
+}
+.btn-primary:hover {
+  background-color: #3e6275 !important;
+  transition: transform .4s !important;
+  color: white !important;
+} 
+.bw {
+  background-color: rgb(26, 26, 26) !important;
+  color: white !important;
+}
+
+.btn-outline-primary {
+  border-radius: #ffc107 !important;
+  color:  rgb(28, 28, 28)  !important;
+  --bs-btn-color:  #ffc107 !important;
+    --bs-btn-border-color:  #ffc107 !important;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg:  #ffc107 !important;
+    --bs-btn-hover-border-color:  #ffc107 !important;
+    --bs-btn-focus-shadow-rgb: 13,110,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg:  #ffc107 !important;
+    --bs-btn-active-border-color:  #ffc107 !important;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color:  #ffc107 !important;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color:  #ffc107 !important;
+    --bs-gradient: none;
+}
+
+.border-dark {
+  background-color: #3e6275;
+  color: #fff;
+  border: #3e6275;
+
+}
+
+.border-dark {
+  border: #3e6275;
+}
+
+.text-green {
+  border: #3e6275;
+  background-color: #3e6275;
+  color: #fff;
+}
+
+.text-bg-dark {
+  background-color: #3e6275;
+}
+
+
+.footer-bk {
+  background-color: #ffc107;
+  color: black;
+}
+
+.text-body-secondary {
+  --bs-text-opacity: 1;
+  color: rgba(255, 255, 255, 0.75)!important;
+}
+
+.text-body-white {
+  color: rgb(173, 173, 173) !important;
+}
+
+@media (max-width: 980px) {
+
+  #title > div > div > div.col-10.col-sm-8.col-lg-6 > img {
+    
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    
+  }
+}

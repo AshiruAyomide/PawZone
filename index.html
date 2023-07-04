@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paws Zone</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img class="mb-1" src="./images/pawszone.svg" alt="paws zone logo" height="24"> <strong>Paws</strong>Zone</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Community</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Cat care</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Breeds
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Abyssinian</a></li>
+              <li><a class="dropdown-item" href="#">American Bobtail</a></li>
+              <li><a class="dropdown-item" href="#">American Curl</a></li>
+              <li><a class="dropdown-item" href="#">American Wirehair</a></li>
+              <li><a class="dropdown-item" href="#">Balinese</a></li>
+              <li><a class="dropdown-item" href="#">Bengal</a></li>
+              <li><a class="dropdown-item" href="#">Birman</a></li>
+              <li><a class="dropdown-item" href="#">Bombay</a></li>
+              <li><a class="dropdown-item" href="#">British Shorthair</a></li>
+              <li><a class="dropdown-item" href="#">Burmese</a></li>
+              <li><a class="dropdown-item" href="#">Burmilla</a></li>
+              <li><a class="dropdown-item" href="#">Chartreux</a></li>
+              <li><a class="dropdown-item" href="#">Chausie</a></li>
+              <li><a class="dropdown-item" href="#">Cornish Rex</a></li>
+              <li><a class="dropdown-item" href="#">Cymric</a></li>
+              <!-- <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">American Curl </a></li> -->
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+
+  <!-- Title -->
+  <section id="title">
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="./images/cat-hero.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Join the Purr-fect Cat Meetup</h1>
+          <p class="lead mb-4">Unleash your feline passion as you connect with like-minded individuals who share your appreciation for these mesmerizing creatures. Swap heartwarming stories, exchange valuable tips and tricks, and revel in the collective knowledge of our vibrant cat-loving community.</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2"><svg xmlns="http://www.w3.org/2000/svg"
+              width="16" height="16" fill="currentColor" class="bi bi-apple mb-1" viewBox="0 0 16 16">
+              <path
+                d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z" />
+              <path
+                d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z" />
+            </svg> Download</button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4"><svg xmlns="http://www.w3.org/2000/svg"
+              width="16" height="16" fill="currentColor" class="bi bi-google-play mb-1" viewBox="0 0 16 16">
+              <path
+                d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96 2.694-1.586Zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055l7.294-4.295ZM1 13.396V2.603L6.846 8 1 13.396ZM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27Z" />
+            </svg> Download</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Features -->
+  <section class="bw" id="features" >
+    <div class="container py-5" id="hanging-icons">
+      <h2 class="pb-2">Why<strong>Paws</strong>Zone?</h2>
+      <div class="container" >
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+
+          <!-- User-friendly -->
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-body-emphasis btn-primary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+              <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor" class="bi bi-person-hearts" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M11.5 1.246c.832-.855 2.913.642 0 2.566-2.913-1.924-.832-3.421 0-2.566ZM9 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm-9 8c0 1 1 1 1 1h10s1 0 1-1-1-4-6-4-6 3-6 4Zm13.5-8.09c1.387-1.425 4.855 1.07 0 4.277-4.854-3.207-1.387-5.702 0-4.276ZM15 2.165c.555-.57 1.942.428 0 1.711-1.942-1.283-.555-2.281 0-1.71Z"/>
+              </svg>
+            </div>
+            <div>
+              <h3 class="fs-2">User-friendly Profile Creation.</h3>
+              <p>Users can create profiles for their cats, including details such as breed, age, personality traits, and photos. This feature allows cat owners to showcase their furry companions and helps in finding suitable playmates or potential matches for meetups..</p>
+            </div>
+          </div>
+
+          <!-- cat play date -->
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-body-emphasis btn-primary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+              <svg xmlns="http://www.w3.org/2000/svg" height="24" class="bi bi-calendar2-heart-fill" viewBox="0 0 16 16">
+                <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5Zm-2 4v-1c0-.276.244-.5.545-.5h10.91c.3 0 .545.224.545.5v1c0 .276-.244.5-.546.5H2.545C2.245 5 2 4.776 2 4.5Zm6 3.493c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z"/>
+              </svg>
+            </div>
+            <div>
+              <h3 class="fs-2">Cat Playdate Scheduling.</h3>
+              <p>There is a dedicated feature that allows you to schedule cat playdates with other cat owners. You can specify your cat's availability, preferred play activities, and location, making it simple to find suitable playmates for your furry friends.</p>
+            </div>
+          </div>
+
+          <!-- community forum -->
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-body-emphasis btn-primary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+              <svg xmlns="http://www.w3.org/2000/svg"  height="24" fill="currentColor" class="bi bi-chat-left-text-fill" viewBox="0 0 16 16">
+                <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4.414a1 1 0 0 0-.707.293L.854 15.146A.5.5 0 0 1 0 14.793V2zm3.5 1a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1h-9zm0 2.5a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1h-9zm0 2.5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5z"/>
+              </svg>
+            </div>
+            <div>
+              <h3 class="fs-2">Community Forums and Discussion Boards.</h3>
+              <p>The app includes community forums and discussion boards where cat owners can share experiences, ask for advice, and engage in conversations about all things cat-related. This fosters a vibrant and supportive community within the app.</p>
+            </div>
+          </div>
+
+          <!-- pet service provider -->
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-body-emphasis btn-primary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+              <svg xmlns="http://www.w3.org/2000/svg" height="24" fill="currentColor" class="bi bi-hospital-fill" viewBox="0 0 16 16">
+                <path d="M6 0a1 1 0 0 0-1 1v1a1 1 0 0 0-1 1v4H1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h6v-2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5V16h6a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1h-3V3a1 1 0 0 0-1-1V1a1 1 0 0 0-1-1H6Zm2.5 5.034v1.1l.953-.55.5.867L9 7l.953.55-.5.866-.953-.55v1.1h-1v-1.1l-.953.55-.5-.866L7 7l-.953-.55.5-.866.953.55v-1.1h1ZM2.25 9h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5A.25.25 0 0 1 2 9.75v-.5A.25.25 0 0 1 2.25 9Zm0 2h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-.5a.25.25 0 0 1 .25-.25ZM2 13.25a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-.5ZM13.25 9h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-.5a.25.25 0 0 1 .25-.25ZM13 11.25a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-.5Zm.25 1.75h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-.5a.25.25 0 0 1 .25-.25Z"/>
+              </svg>
+            </div>
+            <div>
+              <h3 class="fs-2">Pet Service Providers Listing.</h3>
+              <p>You can join community forums and discussion boards where cat owners share experiences, ask for advice, and engage in conversations about all things cat-related.</p>
+            </div>
+          </div>
+
+          <!-- Cat Profile and Matching -->
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-body-emphasis btn-primary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+              <svg height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M17 14C17.9625 13.9965 18.9035 13.7152 19.71 13.19L20 13C20.1611 12.8908 20.3117 12.7669 20.45 12.63L20.66 12.43C20.836 12.2505 20.9966 12.0565 21.14 11.85L21.2 11.77C21.3619 11.5311 21.4993 11.2765 21.61 11.01C21.646 10.9358 21.6761 10.8589 21.7 10.78C21.7831 10.5756 21.8499 10.3649 21.9 10.15L21.96 9.9C21.9979 9.6016 22.0113 9.30059 22 9V2L19 5H15L12 2V9C12 10.3261 12.5268 11.5979 13.4645 12.5355C14.4021 13.4732 15.6739 14 17 14ZM19 7C19.1978 7 19.3911 7.05865 19.5556 7.16853C19.72 7.27841 19.8482 7.43459 19.9239 7.61732C19.9996 7.80004 20.0194 8.00111 19.9808 8.19509C19.9422 8.38907 19.847 8.56725 19.7071 8.70711C19.5673 8.84696 19.3891 8.9422 19.1951 8.98079C19.0011 9.01937 18.8 8.99957 18.6173 8.92388C18.4346 8.84819 18.2784 8.72002 18.1685 8.55557C18.0586 8.39112 18 8.19778 18 8C18 7.73478 18.1054 7.48043 18.2929 7.29289C18.4804 7.10536 18.7348 7 19 7ZM15 7C15.1978 7 15.3911 7.05865 15.5556 7.16853C15.72 7.27841 15.8482 7.43459 15.9239 7.61732C15.9996 7.80004 16.0194 8.00111 15.9808 8.19509C15.9422 8.38907 15.847 8.56725 15.7071 8.70711C15.5673 8.84696 15.3891 8.9422 15.1951 8.98079C15.0011 9.01937 14.8 8.99957 14.6173 8.92388C14.4346 8.84819 14.2784 8.72002 14.1685 8.55557C14.0586 8.39112 14 8.19778 14 8C14 7.73478 14.1054 7.48043 14.2929 7.29289C14.4804 7.10536 14.7348 7 15 7Z" fill="black"/>
+                <path d="M11 22V17H8V22H5V11.9C4.49137 11.8261 4.00533 11.6408 3.57662 11.3573C3.14791 11.0738 2.78711 10.6991 2.52 10.26C2.19711 9.72829 2.01792 9.12181 2 8.5C2.01813 8.00249 2.13785 7.51394 2.35179 7.06441C2.56573 6.61488 2.86937 6.21387 3.24404 5.88604C3.6187 5.55821 4.05647 5.31049 4.53042 5.15811C5.00437 5.00574 5.50448 4.95193 6 5C6.26683 5.01604 6.53402 4.9753 6.78394 4.88046C7.03386 4.78562 7.26082 4.63885 7.44984 4.44984C7.63885 4.26082 7.78562 4.03386 7.88046 3.78394C7.9753 3.53402 8.01604 3.26683 8 3C8 2.73478 8.10536 2.48043 8.29289 2.29289C8.48043 2.10536 8.73478 2 9 2C9.26522 2 9.51957 2.10536 9.70711 2.29289C9.89464 2.48043 10 2.73478 10 3C10.0152 3.52941 9.92212 4.05635 9.72648 4.54853C9.53084 5.0407 9.23675 5.48774 8.86225 5.86225C8.48774 6.23675 8.0407 6.53084 7.54853 6.72648C7.05635 6.92212 6.52941 7.01519 6 7C4.19 7 4 8.16 4 8.51C4 8.86 4.18 10 6 10H11.09C11.2369 10.8615 11.5702 11.6805 12.0666 12.3997C12.563 13.119 13.2106 13.7211 13.9639 14.164C14.7173 14.6068 15.5584 14.8798 16.4282 14.9638C17.2981 15.0477 18.1758 14.9406 19 14.65V22H16V17H14V22H11Z" fill="black"/>
+                </svg>              
+            </div>
+            <div>
+              <h3 class="fs-2">Cat-Friendly Venue Recommendations.</h3>
+              <p>Users can access a curated list of cat-friendly venues, such as cafes, parks, or stores, where they can take their cats. The app provides information about the venues, including ratings, reviews, and facilities, helping users make informed decisions and discover new places to visit with their furry companions.</p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-body-emphasis btn-primary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+              <svg xmlns="http://www.w3.org/2000/svg" height="24" fill="currentColor" class="bi bi-search-heart-fill" viewBox="0 0 16 16">
+                <path d="M6.5 13a6.474 6.474 0 0 0 3.845-1.258h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.008 1.008 0 0 0-.115-.1A6.471 6.471 0 0 0 13 6.5 6.502 6.502 0 0 0 6.5 0a6.5 6.5 0 1 0 0 13Zm0-8.518c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.69 0-5.018Z"/>
+              </svg>
+            </div>
+            <div>
+              <h3 class="fs-2">Location-Based Cat Meetup Search.</h3>
+              <p>Pawzone incorporates geolocation to enable users to search for cat meetups, events, and fellow cat owners in their local area. This feature ensures that users can easily connect with cat lovers nearby, fostering real-life interactions and friendships.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Testimonial -->
+  <section id="testimonial">
+    <section id="testimonial">
+      <div class="my-5">
+        <div class="p-5 text-center bg-body-tertiary">
+          <div class="container py-5">
+            <h3 class="text-body-emphasis">"I cannot thank this app enough for bringing joy into my life and my cat's life. The location-based meetup search has made it incredibly easy to find local events and meetups. My cat, Luna, has made new friends, and I've met some wonderful people who share my love for cats!"</h3>
+            <img class="profile-img mt-5" src="./images/withcat.jpg" alt="cat image">
+            <p class="col-lg-8 mx-auto lead mt-2">
+             <strong>Nsikan Stephanie</strong> , Nigeria
+            </p>
+          </div>
+  
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 col-sm-12 mb-3">
+                <img src="./images/techcrunch.png" alt="techcrunch" height="30">
+              </div>
+              <div class="col-lg-3 col-sm-12 mb-3">
+                <img src="./images/mashable.png" alt="mashable" height="30">
+              </div>
+              <div class="col-lg-3 col-sm-12 mb-3">
+                <img src="./images/bizinsider.png" alt="bizinsider" height="30">
+              </div>
+              <div class="col-lg-3 col-sm-12 mb-3">
+                <img src="./images/tnw.png" alt="tnw" height="30">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </section>
+  <!-- Pricing -->
+  <section id="pricing">
+    <div class="container py-3">
+      <header>
+        <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 "></div>
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+          <h1 class="display-4 fw-normal text-body-emphasis">Choose Plan</h1>
+          <p class="fs-5 text-body-secondary">Transparent pricing tailored for you and your cats's benefits.</p>
+        </div>
+      </header>
+    
+      <main>
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Kitty Starter</h4>
+              </div>
+              <div class="card-body">
+                <h2 class="card-title pricing-card-title">$0<small class="text-body-secondary fw-light">/mo</small></h2>
+                <ul class="list-styled-position mt-3 mb-4">
+                  <li>Users can create a profile for their cats.</li>
+                  <li>Basic cat matching playdate suggestions.</li>
+                  <li>Access to the cat lovers' community forums </li>
+                  <li>Access to a selection of free cat-related resources.</li>
+                  <li>Access to cat-related events</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-dark">
+              <div class="card-header py-3 text-bg-dark border-dark">
+                <h4 class="my-0 fw-normal">Purrfect Companion</h4>
+              </div>
+              <div class="card-body">
+                <h2 class="card-title pricing-card-title">$4.99<small class="text-body-secondary fw-light">/mo</small></h2>
+                <p>All features from the "Kitty Starter" plan, plus:</p>
+                <ul class="list-styled-position mt-3 mb-4">
+                  <li>Algorithm for finding compatible playdates.</li>
+                  <li>Access to a curated list of cat-friendly venues.</li>
+                  <li>Access to collection of cat-related resources.</li>
+                  <li>Standard customer support.</li>
+                  <li>Create and manage their cat events, invite others</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-primary">Request 7 days trial</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm ">
+              <div class="card-header py-3 ">
+                <h4 class="my-0 fw-normal">Feline VIP</h4> 
+              </div>
+              <div class="card-body">
+                <h2 class="card-title pricing-card-title">$9.99<small class="text-body-secondary fw-light">/mo</small></h2>
+                <p>All features from the "Purrfect Companion" plan, plus:</p>
+                <ul class="list-styled-position mt-3 mb-4">
+                  <li>Access to advanced cat matching algorithm</li>
+                  <li>Priority customer support for prompt assistance.</li>
+                  <li>Exclusive access to premium cat-related content</li>
+                  <li>Early access to new features and updates</li>
+                  <li>Ad-Free Experience</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-outline-primary">Contact us</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </section>
+  <!-- Footer -->
+  <section id="footer" class="bw">
+    <div class="container">
+      <footer class="py-5">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Account</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-white ">Sign up</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-white ">Log in</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-white ">Help</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-white ">Become an Ambassador</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Discover</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-white ">Online Events</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-white ">Topics</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-white ">Cat Care</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-white ">Breeds</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-white ">Blog</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-white ">Community</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Support</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-white ">FAQ</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-white ">Contribute</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-white ">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-white ">Contact us</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-md-5 offset-md-1 mb-3">
+            <form>
+              <h5>Subscribe to our newsletter</h5>
+              <p>Monthly digest of what's new and exciting from us.</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                <button class="btn btn-primary" type="button">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+    
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+          <p>© 2023 <strong>Paws</strong>Zone, Inc. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </section>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+
+</html>
